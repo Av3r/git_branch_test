@@ -4,9 +4,9 @@ import java.util.Scanner;
  * Created by Damia on 18.06.2019.
  */
 public class Main {
-    Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
-    public void createuser(){
+    public static void createuser(){
         String name, lastname;
         Integer age;
 
@@ -24,6 +24,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
+        createuser();
     }
 }
